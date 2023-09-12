@@ -48,7 +48,7 @@ function CardRecomenda({ titulo, subtitulo, descricao, img }) {
   return (
     <Card>
       <div>
-        <Titulo tamanhoFonte="16px" cor="#EB9B00" alinhamento="left">
+        <Titulo tamanhofonte="16px" cor="#EB9B00" alinhamento="left">
           {titulo}
         </Titulo>
         <Subtitulo>{subtitulo}</Subtitulo>

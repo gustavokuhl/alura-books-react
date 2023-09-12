@@ -20,8 +20,8 @@ const icones = [
 function IconesHeader() {
   return (
     <Icones>
-      {icones.map((icone) => (
-        <Icone>
+      {icones.map((icone, index) => (
+        <Icone key={index}>
           <img src={icone[0]} alt={icone[1]}></img>
         </Icone>
       ))}
